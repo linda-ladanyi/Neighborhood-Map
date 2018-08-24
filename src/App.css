@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.heading {
+  margin: 0;
+  text-align: center;
+}
+
+.map {
+  margin: 0;
+  width: 100%;
+  height: calc(100vh - 92px);
+}
+
+.container {
+  display: flex;
+}
+
+.text-input {
+  width: 300px;
+  background-color: #D6D3C6;
+}
+
+.text-input input {
+  margin: 3px;
+  width: 227px;
+  line-height: 12px;
+  padding: 10px;
+  padding-left: 55px;
+  border: 1px solid #3E371D;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #3E371D;
+  background-image: url('./img/search.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  outline: 0;
+}
+
+.text-input ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.text-input li {
+  margin: 3px;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-right: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  line-height: 30px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #3E371D;
+  color: white;
+  text-align: left;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #CCC;
+  z-index: 99;
+  display: inline-flex;
+}
+
+.app-title {
+  font-size: 1.4em;
+  font-family: 'Helvetica', serif;
+  text-align: left;
+  padding: 10px 0 0 0;
+  margin: 0 0 0 0;
+
+}
+
+.logo {
+  padding: 10px 10px 10px 10px;
+  animation-name: flipInY;
+  animation-duration: 2.0s
+}
+
+/* animation */
+@keyframes flipInY {
+    from {
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+
+    to {
+        transform: perspective(400px);
+    }
+}
+
+#pano {
+  width: 250px;
+  height: 200px;
+}
+
+.infopic {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .text-input {
+    width: 200px;
+    z-index: 2;
+  }
+
+  .text-input input {
+    width: 127px;
+  }
+
+  .text-input li {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: medium;
+    padding: 1em;
+  }
+
+  .text-input {
+    width: 150px;
+  }
+
+  .text-input input {
+    width: 77px;
+  }
+
+  .text-input li {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 9px;
+  }  
+
+}

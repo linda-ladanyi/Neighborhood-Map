@@ -1,0 +1,23 @@
+{
+  "name": "jk-neighborhood-udacity-fend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://koszojudit.github.io/JK-Neighbourhood-Udacity-FEND/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "gh-pages": "^1.2.0",
+    "google-map-react": "^1.0.5",
+    "google-maps-react": "^2.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
