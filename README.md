@@ -27,3 +27,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ***NOTE:*** *The app will only be available offline in production mode. (service workers only cache the site in that case)*
 
 6. Alternatively, open the [live version of the project](https://linda-ladanyi.github.io/Neighborhood-Map).
+
+## Run in Production Mode
+
+1. Install Phython (preferably 3.x)
+2. Download the repository on your local computer
+3. Open a terminal and navigate to project folder
+4. Run: npm run build
+5. Navigate to the `build` directory and run Phython localhost server: -m http.server 8080. If you have Python 2.x installed you can run: python -m SimpleHTTPServer 8080
+6. Navigate in your browser to [http://localhost:8000](http://localhost:8000)
+7. Start interacting with the app!

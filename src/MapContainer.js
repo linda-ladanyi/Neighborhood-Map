@@ -8,31 +8,31 @@ export default class MapContainer extends Component {
     locations: [
       {name: "Basilica of Esztergom", 
       address: "Szent István tér 1", 
-      flickr:"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=bazilika&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=3e9e05660f3e76b5ca710c7e8dfeabfb",
+      flickr:"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=bazilika&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=0f4e24d35ab7f00737cc0dbdec2c6ba7",
       location: {lat: 47.7990667, lng: 18.7365247}},
       {name: "Szent Anna's Parish Church", 
       address: "Rudnay Sándor tér 1", 
-      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=kerek&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=d6d034abdb9c5a8acdaa17a14483bf39",
+      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=kerek&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=03677d0d08362d345562ffd94fce54e1",
       location: {lat: 47.7845086, lng: 18.7397583}},
       {name: "St Ignatius Church", 
       address: "Berényi Zsigmond u. 2", 
-      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=ignac&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=d561c16c74ecf13d52e42fc0af44bc7b",
+      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=ignac&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=d911800df6a198ecfaa906ab2caf614c",
       location: {lat: 47.796928, lng: 18.735118}},
       {name: "Sorrowful Virgin Chapel", 
       address: "Zója St.", 
-      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=szomoru&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=30335789203efe8cb12005d7eba76ca3",
+      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=szomoru&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=27012c81b797bde4d64427854f703017",
       location: {lat: 47.7966723, lng: 18.7408807}},      
       {name: "Vaskapu Restaurant", 
       address: "Panoráma út", 
-      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=vaskapu&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=8068b220fa9558fb7403400c8d80a82f",
+      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=vaskapu&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=ac2b66304fd9d1cd0b52314fd2a7462f",
       location: {lat: 47.7869735, lng: 18.7718087}},
       {name: "Aqua Island", 
       address: "Táncsics Mihály u. 5", 
-      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=aqua&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=d52d2a93abdeae767ee9dbe2e5dd25b4",
+      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=aqua&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=3ae12eb3ce825da50e846e6195caa94e",
       location: {lat: 47.7945548, lng: 18.7375308}},
       {name: "Castle Theatre of Esztergom", 
       address: "Szent István tér 1.", 
-      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0a8f374be6d7939edcd1d0f0a6b906b3&user_id=156177810%40N07&tags=varszinhaz&text=thumbnail&in_gallery=MyMapThumbnail&format=json&nojsoncallback=1&auth_token=72157700569721255-15100579008941c2&api_sig=527071a613503d5ed12bf20124b232a9",
+      flickr: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a83e6b10d2df062428b361399c047fcd&user_id=156177810%40N07&tags=thumbnail&text=varszinhaz&per_page=1&page=1&format=json&nojsoncallback=1&auth_token=72157700597045945-9287c8dee7e6edd9&api_sig=4cce2041e44dc0e1f667bf6d293f0310",
       location: {lat: 47.7983623, lng: 18.737358}}
     ],
     query: '',
@@ -44,6 +44,10 @@ export default class MapContainer extends Component {
   componentDidMount() {
     this.loadMap()
     this.onclickLocation()
+  }
+
+  gm_authFailure() {
+      alert("Google Map error. Please try refreshing the page.");
   }
 
   loadMap() {
@@ -324,13 +328,13 @@ export default class MapContainer extends Component {
             nearStreetViewLocation, marker.position);
             //set infowindow content
             infowindow.setContent(
-              '<div role="info">' + 
-                '<h3>' + marker.title +'</h3>' + 
-                '<h4>' + marker.address + '</h4>' +
+              '<div role="info" tabIndex="0">' + 
+                '<h3 tabIndex="0">' + marker.title +'</h3>' + 
+                '<h4 tabIndex="0">' + marker.address + '</h4>' +
               '</div>' + 
-              '<div id="pano" role="streetview"></div>' +
+              '<div id="pano" role="streetview" tabIndex="0"></div>' +
               '<img className="infopic" key="'+marker.title+'" alt="'+marker.title+'" src="'+marker.picimg+'"></img>' +
-              '<p>Piture id on flickr:'+marker.picid+'</p>'
+              '<p tabIndex="0">Piture id on flickr:'+marker.picid+'</p>'
             );
             var panoramaOptions = {
               position: nearStreetViewLocation,
@@ -342,7 +346,7 @@ export default class MapContainer extends Component {
           new window.google.maps.StreetViewPanorama(
             document.getElementById('pano'), panoramaOptions);
           } else {
-            infowindow.setContent('<div>' + marker.title + '</div><div>No Street View Found</div>');
+            infowindow.setContent('<div role="infowindowerror" tabIndex="0">' + marker.title + '</div><div>No Street View Found</div>');
           }
       }
       // Use streetview service to get the closest streetview image within 50 meters of the markers position
@@ -378,17 +382,17 @@ export default class MapContainer extends Component {
 
     return (
       <div>
-        <div className="container">
-          <div className="text-input">
-            <input role="search" type='text'
+        <div className="container" tabIndex="0">
+          <div className="text-input" tabIndex="0">
+            <input role="search" type='text' tabIndex="0"
                    value={this.state.value}
                    onChange={this.handleValueChange}/>
-            <ul className="locations-list">{
+            <ul className="locations-list" tabIndex="0">{
               markers.filter(m => m.getVisible()).map((m, i) =>
-                (<li key={i}>{m.title}</li>))
+                (<li key={i} role="button '+m.title+'">{m.title}</li>))
             }</ul>
           </div>
-          <div role="application" className="map" ref="map">
+          <div role="application" className="map" ref="map" tabIndex="0">
             loading map...
           </div>
         </div>
